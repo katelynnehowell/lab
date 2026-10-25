@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{230cf11b-a273-4731-b103-4cf5e7c04766}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="false" headerdensity="HighWithControls" showImage="false">
+      <tabs>
+        <tab verticallayout="true" id="{0682c063-c31b-4cd7-81b2-b6c5558759b9}" IsUserDefined="1" name="general" labelid="{11a50189-74e0-44eb-a8cc-e603edffa2c5}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{9799ba83-22ef-488b-97b9-63039fe599a3}" labelid="{c474e542-139d-424f-99fe-0cd3bf8566c8}" name="general">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{f0359a18-7c47-4dfe-84ee-b63ed6ad6bd3}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{aaaf19cf-e3ae-49f7-9621-07e676f438d8}" showlabel="false" labelid="{564e1274-1335-4281-860a-de9cc54f14d6}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{498e612f-b803-45db-8891-d6e4a8fd6a73}" showlabel="false" labelid="{ac356710-7f4a-414b-beb7-9be95c8da5d8}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c8d74186-69a6-4b20-8686-91eb1445ad39}" showlabel="false" labelid="{1ce05000-18ae-4f18-8c88-f279cbcf0f5b}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{51f11886-ccba-4c04-baec-dd45bdf87b95}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{709160c9-107d-4679-81ad-b2d06e16c4e6}" showlabel="false" labelid="{f324ba20-f55b-4df5-8707-afa725062d69}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1ad6f409-4ec2-4487-9d99-fa008a724fc9}" showlabel="false" labelid="{ac14df93-6be5-4fc5-a88c-5addb4abcbb3}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{59ef1ca5-76f1-4da3-bc69-9e8f690ed115}" showlabel="false" labelid="{24d7269b-98b3-4ffd-8dce-d812ee58fe37}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <formLibraries>
+        <Library name="lab_main.js" libraryUniqueId="{77df1156-0ac5-4162-9442-3ce03b8b16b3}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="true">
+          <Handlers>
+            <Handler libraryName="$webresource:lab_main.js" functionName="WarehouseScripts.TransactionForm.onLoad" passExecutionContext="true" enabled="true" handlerUniqueId="{8a4cff6e-eee0-4b56-929a-280bf1ec72be}" parameters="" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="true" attribute="lab_quantity">
+          <Handlers>
+            <Handler libraryName="$webresource:lab_main.js" functionName="WarehouseScripts.TransactionForm.onQuantityChange" passExecutionContext="true" enabled="true" handlerUniqueId="{fb30338d-371d-4d4e-bea7-a13775d1ff32}" parameters="" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Generated Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Main form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

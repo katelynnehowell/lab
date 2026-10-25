@@ -21,5 +21,14 @@
   "columnsScaffolded": true,
   "pluginsScaffolded": true,
   "logicSolutionScaffolded": true,
-  "securityScaffolded": true
+  "securityScaffolded": true,
+  "uiSolutionScaffolded": true,
+  "sitemapScaffolded": true,
+  "warehousetransactionFormGuid": "230cf11b-a273-4731-b103-4cf5e7c04766",
+  "formsScaffolded": true,
+  "formScriptsScaffolded": true,
+  "viewsSubgridsScaffolded": true,
+  "ribbonScaffolded": true,
+  "codeAppScaffolded": true,
+  "gridControlScaffolded": true
 }

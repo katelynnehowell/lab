@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{005cb685-41d1-45c1-ac3c-0790b56e101d}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="false" headerdensity="HighWithControls" showImage="false">
+      <tabs>
+        <tab verticallayout="true" id="{94aeff01-9625-475b-b568-4ad89b05e4b4}" IsUserDefined="1" name="general" labelid="{d228ec92-c641-4bbb-bb4e-584a2ff65bee}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{b1e1f69e-3b91-4ccf-bfd6-148c62916891}" labelid="{fb17985b-bf7e-4435-bbb7-5e7c4aac336f}" name="general">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{72ce38c6-6d38-4b4d-8a43-edbfae89b870}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{6c09d2b1-5ce5-4757-b118-71f63b7f45eb}" showlabel="false" labelid="{0600c29c-6eea-46ef-83c1-f3534e82e521}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{43df26b4-a9c7-4743-b669-065b15dabb63}" showlabel="false" labelid="{ca9c2081-4c9b-441c-a637-ae7b2238f494}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b07f78c0-9e92-4035-a4a3-51468cc48ef2}" showlabel="false" labelid="{a69badd0-e288-498b-93e9-f6259a124172}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{8fa960f8-9dc5-4a24-bed7-fc4a70c83dbc}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d9862e46-3110-4b89-b60c-9230ad85e28b}" showlabel="false" labelid="{aa44caac-d2a4-48ba-8ff7-c417e6f2b8d1}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1147498b-25f3-451c-b925-3c72a323141a}" showlabel="false" labelid="{662ed70c-ecaf-432f-ad7e-8a51a740108d}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{01926931-3d20-4d69-8a6b-5085fa5b9cb2}" showlabel="false" labelid="{d3116e6a-93e3-4ed4-b355-de643b5ccad7}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <formLibraries>
+        <Library name="lab_main.js" libraryUniqueId="{6fbfad20-bbb2-406a-b52f-03312ee16c2a}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="true">
+          <Handlers>
+            <Handler libraryName="$webresource:lab_main.js" functionName="WarehouseScripts.LocationForm.onLoad" passExecutionContext="true" enabled="true" handlerUniqueId="{e10a825c-3629-46f7-b95f-4b773d2b0496}" parameters="" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Generated Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Main form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
