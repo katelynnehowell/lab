@@ -34,5 +34,8 @@
   "productTableScaffolded": true,
   "productTableDeployed": true,
   "connectorScaffolded": true,
-  "connectorDeployed": true
+  "connectorDeployed": true,
+  "productDataSourceScaffolded": true,
+  "openFoodFactsConnectionId": "9475a852-ff67-448b-88e0-41d8d201db22",
+  "connectorDataSourceScaffolded": true
 }
