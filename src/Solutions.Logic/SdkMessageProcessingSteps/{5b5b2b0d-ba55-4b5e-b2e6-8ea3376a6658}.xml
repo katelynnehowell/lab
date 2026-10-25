@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Plugins.Warehouse.SubtractQuantityPlugin: Create of lab_warehousetransaction" SdkMessageProcessingStepId="{5b5b2b0d-ba55-4b5e-b2e6-8ea3376a6658}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>9ebdbb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>Plugins.Warehouse.SubtractQuantityPlugin, PluginsWarehouse, Version=1.0.0.0, Culture=neutral, PublicKeyToken=70bb631abc9c80a3</PluginTypeName>
+  <PrimaryEntity>lab_warehousetransaction</PrimaryEntity>
+  <PluginTypeId>547b322f-52ee-4337-8e6c-eaaac2b63f51</PluginTypeId>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes>
+  </FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>
