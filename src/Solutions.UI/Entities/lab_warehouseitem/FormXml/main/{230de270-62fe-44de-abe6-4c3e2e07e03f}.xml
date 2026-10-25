@@ -19,8 +19,14 @@
                     <label description="GENERAL" languagecode="1033" />
                   </labels>
                   <rows>
-                    <row />
-                    <row />
+                    <row>
+                      <cell id="{53a1caff-a5cf-4fcf-a8d7-1b4ab7f0d2a1}" showlabel="true">
+                        <labels>
+                          <label description="Unit Price" languagecode="1033" />
+                        </labels>
+                        <control id="lab_unitprice" classid="{533B9E00-756B-4312-95A0-DC413B5A4B7A}" datafieldname="lab_unitprice" />
+                      </cell>
+                    </row>
                     <row />
                     <row />
                     <row />

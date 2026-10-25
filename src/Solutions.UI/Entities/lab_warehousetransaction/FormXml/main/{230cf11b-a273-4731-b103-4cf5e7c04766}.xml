@@ -19,8 +19,14 @@
                     <label description="GENERAL" languagecode="1033" />
                   </labels>
                   <rows>
-                    <row />
-                    <row />
+                    <row>
+                      <cell id="{b0f2caa1-b7e1-49f4-b917-a3d21a7cfe4b}" showlabel="true">
+                        <labels>
+                          <label description="Total Value" languagecode="1033" />
+                        </labels>
+                        <control id="lab_totalvalue" classid="{533B9E00-756B-4312-95A0-DC413B5A4B7A}" datafieldname="lab_totalvalue" />
+                      </cell>
+                    </row>
                     <row />
                     <row />
                     <row />
