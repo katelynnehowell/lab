@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>lab_warehouseapp</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor>
+  </OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="lab_warehouseapp" />
+    <AppModuleComponent type="1" schemaName="lab_warehouselocation" />
+    <AppModuleComponent type="1" schemaName="lab_warehouseitem" />
+    <AppModuleComponent type="1" schemaName="lab_warehousetransaction" />
+    <AppModuleComponent type="60" id="{005cb685-41d1-45c1-ac3c-0790b56e101d}" />
+    <AppModuleComponent type="60" id="{088d45e1-0dbc-44ec-9b59-0889e010cd4c}" />
+    <AppModuleComponent type="60" id="{eb95f82b-6cd8-4244-9932-54bc82fa6f7a}" />
+    <AppModuleComponent type="60" id="{edc8a9be-39d0-4a41-9655-dfa1ded9d51f}" />
+    <AppModuleComponent type="60" id="{230de270-62fe-44de-abe6-4c3e2e07e03f}" />
+    <AppModuleComponent type="60" id="{5067d055-1440-4877-90de-8b0c3b651178}" />
+    <AppModuleComponent type="60" id="{37c1458a-5264-439a-bc9f-d024d49ff090}" />
+    <AppModuleComponent type="60" id="{8d390768-1c8a-453a-b26c-ca95515676c8}" />
+    <AppModuleComponent type="60" id="{94fe9f61-6024-4d71-83c9-a092bc8cba00}" />
+    <AppModuleComponent type="60" id="{fb5e764e-83e0-4a2a-9fd5-78f2c1ca8bba}" />
+    <AppModuleComponent type="60" id="{e364194f-5f8f-402f-847e-a3fd9344b510}" />
+    <AppModuleComponent type="60" id="{230cf11b-a273-4731-b103-4cf5e7c04766}" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{979144c2-989b-41a5-a146-6b3ea4130e8c}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Warehouse Management" languagecode="1033" />
+  </LocalizedNames>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+  </appsettings>
+</AppModule>

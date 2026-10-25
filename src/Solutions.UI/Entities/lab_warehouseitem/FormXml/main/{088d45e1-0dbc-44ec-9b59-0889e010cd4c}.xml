@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{088d45e1-0dbc-44ec-9b59-0889e010cd4c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="false" headerdensity="HighWithControls" showImage="false">
+      <tabs>
+        <tab verticallayout="true" id="{1bc0f2b9-4d55-40b4-8372-f68bdf8af6f0}" IsUserDefined="1" name="general" labelid="{4e169952-7650-42b2-9cb9-88adc321e999}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{4c7348cf-fd46-47ef-bf0c-e7bbdac2ac11}" labelid="{727d75d9-ed30-4822-97a4-d2697bce843f}" name="general">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{fd95b4de-2fac-49a3-a76a-d8cb4fb4b109}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{428dcd0c-f9b0-47db-a550-74f76ec4589e}" showlabel="false" labelid="{22e92d86-f344-4ea0-a308-fdcb590d79d3}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{495e9175-0c8d-460b-abb4-9f44fac30c92}" showlabel="false" labelid="{045617b3-42f3-434f-9e96-b8f690b0fbde}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d2ad5fbf-6b68-4bab-b1e6-df6724556d40}" showlabel="false" labelid="{e34305bd-1d6b-4bc7-9ff1-25eec9609731}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{f5e04d8f-9283-4df6-86c4-3ef67b2fda9c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{eb7feef4-d063-4e80-b4e0-626dcf118564}" showlabel="false" labelid="{1cba96d6-6255-49f3-a99d-47057cb858f4}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a1f84014-6320-40f1-a214-641b4d6fc8c3}" showlabel="false" labelid="{e153e90d-70a4-4176-ada6-cbec3eae8bc0}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{215ba14e-e65d-43bf-9050-ca3793dc0ca8}" showlabel="false" labelid="{8e6e2477-68b7-4242-8778-0101a45f9f6c}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Generated Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Main form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
